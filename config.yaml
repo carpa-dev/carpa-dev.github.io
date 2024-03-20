@@ -1,5 +1,5 @@
-baseURL: https://carpa-dev.github.io
-languageCode: en-us
+baseURL: https://www.carpa.dev
+languageCode: pt-BR
 title: carpa.dev
 theme:
   - hugo-fresh
