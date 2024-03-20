@@ -10,7 +10,7 @@ params:
   #  image: logos/fresh.svg
   #  link: /
   opengraph:
-    image: logo_carpa_932x932.png
+    image: logo_opengraph.png
 
   font:
     name: "Open Sans"
