@@ -2,8 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+<meta property="og:locale" content="{{ .Site.LanguageCode }}" />
 <meta property="og:title" content="{{ .Site.Title }}" />
-<meta property="og:description" content="{{ .Site.Title }}" />
-{{- $hero       := .Site.Params.hero }}
-{{- $image      := index $hero "image" }}
-<meta property="og:image" content="{{ printf "/images/%s" $image | relURL }}" />
+<meta property="og:description" content="{{ .Site.Params.hero.subtitle }}" />
+<meta property="og:image" content="{{ printf "/images/%s" .Site.Params.opengraph.image | absURL }}" />

@@ -9,6 +9,9 @@ params:
   # Logo (from /images/logos/___)
   #  image: logos/fresh.svg
   #  link: /
+  opengraph:
+    image: logo_carpa_932x932.png
+
   font:
     name: "Open Sans"
     sizes: [400,600]
