@@ -25,7 +25,7 @@ params:
     # Where the main hero button links to
     buttonlink: "mailto:contato@carpa.dev"
     # Hero image (from /images/___)
-    image: logo_carpa_932x932.png
+    image: logo.svg
     # Footer logos (from /images/logos/clients/___.svg)
     # clientlogos:
     # - systek
