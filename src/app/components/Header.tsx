@@ -24,7 +24,7 @@ const links = [
 ];
 export function Header() {
   return (
-    <header className="flex flex-row justify-between w-full p-4">
+    <header className="flex flex-row justify-between w-full p-4 container">
       <Link href="/">Logo</Link>
       <div className="flex-1"></div>
 

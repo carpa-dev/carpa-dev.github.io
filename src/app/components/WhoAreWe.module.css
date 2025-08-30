@@ -1,0 +1,7 @@
+.cropper {
+  border-radius: 50%;
+}
+
+.item {
+  flex-basis: 400px;
+}

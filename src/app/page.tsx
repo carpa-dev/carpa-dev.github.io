@@ -1,11 +1,13 @@
 import { Header } from "@/app/components/Header";
 import { Hero } from "@/app/components/Hero";
+import { WhoAreWe } from "@/app/components/WhoAreWe";
 
 export default function Home() {
   return (
     <div className="font-sans">
       <Header />
       <Hero />
+      <WhoAreWe />
       {/*
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
