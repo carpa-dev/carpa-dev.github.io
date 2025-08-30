@@ -1,9 +1,11 @@
 import { Header } from "@/app/components/Header";
+import { Hero } from "@/app/components/Hero";
 
 export default function Home() {
   return (
     <div className="font-sans">
       <Header />
+      <Hero />
       {/*
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
