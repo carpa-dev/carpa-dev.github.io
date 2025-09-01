@@ -2,6 +2,7 @@ import Image from "next/image";
 import EduardoImg from "./Eduardo.jpg";
 import RuslanImg from "./Ruslan.jpg";
 import styles from "./WhoAreWe.module.css";
+import { Header } from "@/app/components/Header";
 
 const Membros = [
   {
@@ -36,7 +37,7 @@ const Membros = [
 export function WhoAreWe() {
   return (
     <section className="mx-4 py-9 container">
-      <h2 className="text-center text-5xl font-bold py-9">Quem Somos</h2>
+      <Header title="Quem Somos" />
 
       <div className="flex flex-wrap gap-4">
         {Membros.map((m) => {
