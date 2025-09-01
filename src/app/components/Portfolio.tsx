@@ -2,7 +2,6 @@ import { Header } from "@/app/components/Header";
 import TriceratopsShowImg from "./triceratops_show.jpg";
 import AdlerImg from "./adler.jpg";
 import Image from "next/image";
-import WavesImg from "./intersecting-waves-scattered.svg";
 import styles from "./Portfolio.module.css";
 
 const items = [

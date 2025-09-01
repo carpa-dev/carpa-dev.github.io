@@ -2,6 +2,7 @@ import { TopBar } from "@/app/components/TopBar";
 import { Hero } from "@/app/components/Hero";
 import { Portfolio } from "@/app/components/Portfolio";
 import { WhoAreWe } from "@/app/components/WhoAreWe";
+import { OurServices } from "@/app/components/OurServices";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <WhoAreWe />
       <Portfolio />
+      <OurServices />
       {/*
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
