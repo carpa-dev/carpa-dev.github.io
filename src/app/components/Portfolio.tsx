@@ -3,11 +3,13 @@ import TriceratopsShowImg from "./triceratops_show.jpg";
 import AdlerImg from "./adler.jpg";
 import Image from "next/image";
 import styles from "./Portfolio.module.css";
+import Link from "next/link";
 
 const items = [
   {
     name: "Tricerátops Show",
     img: TriceratopsShowImg,
+    linkTo: "https://www.triceratops.show",
     content: (
       <p>
         Podcast de música alternativa capitaneado por DJ Luiz Terra. <br />
@@ -22,6 +24,7 @@ const items = [
   {
     name: "Adler Scaffolding",
     img: AdlerImg,
+    linkTo: "https://www.adlernas.com",
     content: (
       <p>
         Empresa americana de Andaimes e outras estruturas metálicas. <br />
@@ -43,7 +46,9 @@ export function Portfolio() {
             {items.map((i) => {
               return (
                 <div key={i.name} className="basis-lg">
-                  <Image src={i.img} height="448" alt="" />
+                  <Link href={i.linkTo} target="_blank">
+                    <Image src={i.img} height="448" alt="" />
+                  </Link>
                   <h3 className="text-center text-3xl font-bold py-9">
                     {i.name}
                   </h3>
