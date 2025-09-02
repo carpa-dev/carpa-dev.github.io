@@ -11,7 +11,6 @@ export default function Home() {
   return (
     <div className="font-sans">
       <TopBar />
-      {/*
       <Hero />
       <WhoAreWe />
       <Portfolio />
@@ -19,7 +18,6 @@ export default function Home() {
       <SecretIngredient />
       <Contact />
       <Footer />
-        */}
       {/*
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image

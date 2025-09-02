@@ -1,7 +1,7 @@
 import { Header } from "@/app/components/Header";
 import TriceratopsShowImg from "./triceratops_show.jpg";
 import AdlerImg from "./adler.jpg";
-import Image from "next/image";
+import Image from "next-export-optimize-images/image";
 import styles from "./Portfolio.module.css";
 import Link from "next/link";
 

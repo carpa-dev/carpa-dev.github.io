@@ -1,6 +1,6 @@
 import { Header } from "@/app/components/Header";
 import CarpaFloatingImg from "./carpa-floating.svg";
-import Image from "next/image";
+import Image from "next-export-optimize-images/image";
 
 export function Contact() {
   return (
