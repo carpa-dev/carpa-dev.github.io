@@ -23,6 +23,6 @@
   font-size: clamp(1rem, 3vw, 1.5rem); /* mínimo 1rem, máximo 1.5rem */
 }
 
-.heroLeft span {
+.orange {
   color: var(--orange);
 }
