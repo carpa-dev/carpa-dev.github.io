@@ -2,3 +2,27 @@
   --top-bar-height: 50px;
   min-height: calc(100dvh - var(--top-bar-height));
 }
+
+.heroLeft {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heroLeft h1 {
+  font-size: clamp(2rem, 6vw, 4rem); /* mínimo 2rem, cresce até 4rem */
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-shadow: 0 .25rem .25rem #00000025;
+  line-height: 1.25;
+}
+
+.heroLeft p {
+  font-size: clamp(1rem, 3vw, 1.5rem); /* mínimo 1rem, máximo 1.5rem */
+}
+
+.heroLeft span {
+  color: var(--orange);
+}
