@@ -6,8 +6,9 @@
 
 .waves::before {
   content: "";
-  height: 100%;
-  width: 102%;
+  height: 100px;
+  width: 150%;
+  bottom: -4px;
   position: absolute;
   transform: rotate(180deg);
   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path d="M0 0v60c9 0 18-3 25-10 13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s37 13 50 0c14-14 37-14 50 0 7 7 16 10 25 10V0H0Z" fill="%2381B9ED"></path></svg>');
@@ -16,10 +17,16 @@
 
 .footer {
   background-color: #81B9ED;
+  position: relative;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.carpaBubbles {
+  transform: scaleX(-1);
 }
 
 @media screen and (max-width: 640px) {
   .waves {
-    min-height: 50px;
   }
 }
