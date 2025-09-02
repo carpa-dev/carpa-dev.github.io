@@ -39,7 +39,7 @@ body {
 
 /* TODO: move somewhere else */
 .button {
-  background-color: #FF935C;
+  background-color: var(--orange);
   border-radius: 30px;
   color: #fff;
   cursor: pointer;
