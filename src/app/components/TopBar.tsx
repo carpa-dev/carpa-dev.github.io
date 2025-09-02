@@ -25,7 +25,7 @@ const links = [
 ];
 export function TopBar() {
   return (
-    <header className="fixed z-1 w-full bg-white shadow-xl">
+    <header className="sticky top-0 z-1 w-full bg-white shadow-xl">
       <div className="flex flex-row justify-between w-full p-4 container bg-white">
         <Link href="/">Logo</Link>
         <div className="flex-1"></div>
@@ -38,8 +38,14 @@ export function TopBar() {
                   key={l.label}
                   className={`${l.className ? l.className : ""}`}
                 >
-                  <Link className="py-3 px-12 block" href={l.href}>
+                  <Link
+                    className="py-3 px-12 block group relative w-max"
+                    href={l.href}
+                  >
                     {l.label}
+                    {l.className !== "button" && (
+                      <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-black group-hover:w-full"></span>
+                    )}
                   </Link>
                 </li>
               );

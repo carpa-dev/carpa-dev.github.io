@@ -1,5 +1,4 @@
 .hero {
   --top-bar-height: 50px;
-  padding-top: var(--top-bar-height);
   min-height: calc(100dvh - var(--top-bar-height));
 }
