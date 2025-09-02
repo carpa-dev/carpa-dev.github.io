@@ -20,6 +20,7 @@ const links = [
   {
     label: "Contato",
     href: "#",
+    className: "button",
   },
 ];
 export function TopBar() {
@@ -32,8 +33,10 @@ export function TopBar() {
         <ul className="flex justify-between">
           {links.map((l) => {
             return (
-              <li key={l.label} className="py-4 px-8">
-                <Link href={l.href}>{l.label}</Link>
+              <li key={l.label} className={`${l.className ? l.className : ""}`}>
+                <Link className="py-3 px-12 block" href={l.href}>
+                  {l.label}
+                </Link>
               </li>
             );
           })}

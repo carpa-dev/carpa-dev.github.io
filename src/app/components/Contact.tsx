@@ -13,7 +13,12 @@ export function Contact() {
           Estamos 100% disponíveis para responder quaisquer dúvidas. <br />
           Aqui você importa.
         </p>
-        <button>Fale com a gente</button>
+        <a
+          href="mailto:eduardo@carpa.dev"
+          className="inline-block button py-3 px-12 my-9"
+        >
+          Fale com a gente
+        </a>
         <p>
           Ou mande um e-mail para{" "}
           <strong>

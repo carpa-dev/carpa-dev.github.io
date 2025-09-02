@@ -42,7 +42,7 @@ export function Portfolio() {
           <div className="flex gap-8 justify-between">
             {items.map((i) => {
               return (
-                <div className="basis-lg">
+                <div key={i.name} className="basis-lg">
                   <Image src={i.img} height="448" alt="" />
                   <h3 className="text-center text-3xl font-bold py-9">
                     {i.name}
