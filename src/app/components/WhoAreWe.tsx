@@ -36,7 +36,7 @@ const Membros = [
 
 export function WhoAreWe() {
   return (
-    <section className="mx-4 py-9 container">
+    <section className="mx-4 py-9 container px-4">
       <Header title="Quem Somos" />
 
       <div className="flex flex-wrap gap-4">

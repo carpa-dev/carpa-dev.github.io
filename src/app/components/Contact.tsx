@@ -4,10 +4,10 @@ import Image from "next/image";
 
 export function Contact() {
   return (
-    <section className="container text-center py-12 flex">
-      <div className="flex-2" />
+    <section className="container text-center py-12 flex flex-col-reverse md:flex-row">
+      <div className="flex-0 md:flex-2" />
 
-      <div className="flex-3">
+      <div className="flex-1 md:flex-3">
         <Header title="Gostou? Tem dúvidas?" />
         <p>
           Estamos 100% disponíveis para responder quaisquer dúvidas. <br />
@@ -27,7 +27,7 @@ export function Contact() {
         </p>
       </div>
 
-      <div className="flex-2 content-center">
+      <div className="flex-1 md:flex-2 flex justify-center md:content-center">
         <Image
           src={CarpaFloatingImg}
           alt="Desenho de uma carpa usando um teclado"

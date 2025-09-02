@@ -5,8 +5,8 @@ import SardinhaImg from "./sardinhas.jpg";
 export function SecretIngredient() {
   return (
     <section className="container py-8">
-      <div className="flex gap-8">
-        <div className="flex-1 sm:px-8 lg:px-0 flex justify-center flex-col">
+      <div className="flex gap-8 flex-col flex-col-reverse md:flex-row">
+        <div className="flex-1 px-4 lg:px-0 flex justify-center flex-col">
           <Header title="O ingrediente secreto" />
 
           <p>

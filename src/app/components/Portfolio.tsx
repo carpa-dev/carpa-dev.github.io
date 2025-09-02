@@ -38,7 +38,7 @@ const items = [
 export function Portfolio() {
   return (
     <section id="portifolio" className="relative">
-      <div style={{ backgroundColor: "#FFB559" }} className="py-4">
+      <div style={{ backgroundColor: "#FFB559" }} className="py-4 px-4">
         <div className="container">
           <Header title={"Portifólio"}></Header>
 
@@ -49,7 +49,7 @@ export function Portfolio() {
                   <Link href={i.linkTo} target="_blank">
                     <Image src={i.img} height="448" alt="" />
                   </Link>
-                  <h3 className="text-center text-3xl font-bold py-9">
+                  <h3 className="text-center text-2xl md:text-3xl font-bold py-9">
                     {i.name}
                   </h3>
 
