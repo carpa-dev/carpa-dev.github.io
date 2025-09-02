@@ -13,11 +13,16 @@ export function Contact() {
           Estamos 100% disponíveis para responder quaisquer dúvidas. <br />
           Aqui você importa.
         </p>
-
         <button>Fale com a gente</button>
+        <p>
+          Ou mande um e-mail para{" "}
+          <strong>
+            <i>eduardo@carpa.dev</i>
+          </strong>
+        </p>
       </div>
 
-      <div className="flex-2">
+      <div className="flex-2 content-center">
         <Image
           src={CarpaFloatingImg}
           alt="Desenho de uma carpa usando um teclado"

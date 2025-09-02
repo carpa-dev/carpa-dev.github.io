@@ -5,6 +5,7 @@ import { WhoAreWe } from "@/app/components/WhoAreWe";
 import { OurServices } from "@/app/components/OurServices";
 import { SecretIngredient } from "@/app/components/SecretIngredient";
 import { Contact } from "@/app/components/Contact";
+import { Footer } from "@/app/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <OurServices />
       <SecretIngredient />
       <Contact />
+      <Footer />
       {/*
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
