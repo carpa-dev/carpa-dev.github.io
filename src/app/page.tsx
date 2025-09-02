@@ -4,6 +4,7 @@ import { Portfolio } from "@/app/components/Portfolio";
 import { WhoAreWe } from "@/app/components/WhoAreWe";
 import { OurServices } from "@/app/components/OurServices";
 import { SecretIngredient } from "@/app/components/SecretIngredient";
+import { Contact } from "@/app/components/Contact";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Portfolio />
       <OurServices />
       <SecretIngredient />
+      <Contact />
       {/*
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
