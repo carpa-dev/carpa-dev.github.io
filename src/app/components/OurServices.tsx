@@ -4,7 +4,7 @@ import { Header } from "@/app/components/Header";
 
 export function OurServices() {
   return (
-    <div className="container py-4">
+    <section id="servicos" className="container py-4">
       <div className="flex gap-8 flex-col md:flex-row">
         <div
           className={`${styles.laptopWrapper} flex-1`}
@@ -52,6 +52,6 @@ export function OurServices() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

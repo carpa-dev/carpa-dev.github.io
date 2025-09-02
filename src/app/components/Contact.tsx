@@ -4,14 +4,17 @@ import Image from "next/image";
 
 export function Contact() {
   return (
-    <section className="container text-center py-12 flex flex-col-reverse md:flex-row">
+    <section
+      id="contato"
+      className="container text-center py-12 flex flex-col-reverse md:flex-row"
+    >
       <div className="flex-0 md:flex-2" />
 
       <div className="flex-1 md:flex-3">
         <Header title="Gostou? Tem dúvidas?" />
         <p>
           Estamos 100% disponíveis para responder quaisquer dúvidas. <br />
-          Aqui você importa.
+          <strong>Aqui você importa.</strong>
         </p>
         <a
           href="mailto:eduardo@carpa.dev"
