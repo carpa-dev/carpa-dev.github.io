@@ -37,7 +37,7 @@ const items = [
 ];
 export function Portfolio() {
   return (
-    <section id="portifolio" className="relative">
+    <section id="portifolio" className="relative topbar-margin">
       <div style={{ backgroundColor: "#FFB559" }} className="py-4 px-4">
         <div className="container">
           <Header title={"Portifólio"}></Header>

@@ -5,7 +5,7 @@ import { Header } from "@/app/components/Header";
 export function OurServices() {
   return (
     <section id="servicos" className="container py-4">
-      <div className="flex gap-8 flex-col md:flex-row">
+      <div className="flex gap-8 flex-col md:flex-row topbar-margin">
         <div
           className={`${styles.laptopWrapper} flex-1`}
           style={{ backgroundImage: `url(${LaptopImg.src})` }}

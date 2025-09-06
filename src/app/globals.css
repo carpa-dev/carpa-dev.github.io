@@ -8,6 +8,8 @@
   --background: #ffffff;
   --foreground: #171717;
   --orange: #FF935C;
+
+  --topbar-height: 80px;
 }
 
 /*
@@ -49,4 +51,8 @@ body {
 .button:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.topbar-margin {
+  padding-top: var(--topbar-height);
 }
