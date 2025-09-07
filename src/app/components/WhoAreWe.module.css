@@ -1,5 +1,8 @@
 .cropper {
   border-radius: 50%;
+  height: 190px;
+  width: 190px;
+  object-fit: cover;
 }
 
 .item {

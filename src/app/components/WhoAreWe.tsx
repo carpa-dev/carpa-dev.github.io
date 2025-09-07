@@ -1,6 +1,6 @@
 import Image from "next/image";
-import EduardoImg from "./Eduardo.jpg";
-import RuslanImg from "./Ruslan.jpg";
+import EduardoImg from "./eduardo.jpg";
+import RuslanImg from "./ruslan.jpg";
 import styles from "./WhoAreWe.module.css";
 import { Header } from "@/app/components/Header";
 
