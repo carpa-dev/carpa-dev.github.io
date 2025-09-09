@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./Footer.module.css";
 import CarpaBubblesImg from "./carpa_cute.svg";
-import Image from "next/image";
+import Image from "next-image-export-optimizer";
 
 export function Footer() {
   return (
