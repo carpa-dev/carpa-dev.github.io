@@ -4,6 +4,7 @@
 
 .laptopWrapper > img {
   object-fit: cover;
+  border-radius: 30px;
 }
 
 @media screen and (max-width: 1280px) {
