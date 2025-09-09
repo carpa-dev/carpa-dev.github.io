@@ -1,6 +1,6 @@
 import Image from "next-image-export-optimizer";
 import HeroBg from "./HeroBg.png";
-import Logo from "./logo.png";
+import Logo from "./logo.svg";
 import styles from "./Hero.module.css";
 
 export function Hero() {
@@ -22,7 +22,7 @@ export function Hero() {
         </div>
         <Image
           src={Logo}
-          alt=""
+          alt="Logo"
           className="relative h-auto w-auto mb-8 lg:mb-0"
         />
       </div>
