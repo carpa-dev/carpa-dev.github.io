@@ -1,15 +1,15 @@
 import LaptopImg from "./laptop.jpg";
 import styles from "./OurServices.module.css";
 import { Header } from "@/app/components/Header";
+import Image from "next-image-export-optimizer";
 
 export function OurServices() {
   return (
     <section id="servicos" className="container py-4">
       <div className="flex gap-8 flex-col md:flex-row topbar-margin">
-        <div
-          className={`${styles.laptopWrapper} flex-1`}
-          style={{ backgroundImage: `url(${LaptopImg.src})` }}
-        ></div>
+        <div className={`${styles.laptopWrapper} flex-1 relative`}>
+          <Image src={LaptopImg} fill alt="Laptop" />
+        </div>
 
         <div className="flex-1 px-4 content-center">
           <Header title="Nossos serviços" className="pt-0" />
