@@ -1,6 +1,7 @@
 import { Header } from "@/app/components/Header";
 import styles from "./SecretIngredient.module.css";
 import SardinhaImg from "./sardinhas.jpg";
+import Image from "next-image-export-optimizer";
 
 export function SecretIngredient() {
   return (
@@ -27,10 +28,9 @@ export function SecretIngredient() {
           </p>
         </div>
         <div className="flex-1">
-          <div
-            className={`${styles.img} flex-1`}
-            style={{ backgroundImage: `url(${SardinhaImg.src})` }}
-          ></div>
+          <div className={`${styles.img} relative`}>
+            <Image alt="Sardinhas assadas" src={SardinhaImg} fill />
+          </div>
         </div>
       </div>
     </section>
