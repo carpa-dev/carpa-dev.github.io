@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next-image-export-optimizer";
 import EduardoImg from "./eduardo.jpg";
 import RuslanImg from "./ruslan.jpg";
 import styles from "./WhoAreWe.module.css";

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next-image-export-optimizer";
 import HeroBg from "./HeroBg.png";
 import Logo from "./logo.png";
 import styles from "./Hero.module.css";
